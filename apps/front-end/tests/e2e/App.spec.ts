@@ -26,5 +26,5 @@ test('check h1 and h3 content', async ({ page }) => {
 
   // Check the content of the h3 tag
   const h3 = page.locator('h3');
-  await expect(h3).toHaveText('Hello Ann');
+  await expect(h3).toHaveText('Hello From The Api');
 });
