@@ -1,0 +1,14 @@
+{
+  "name": "fullstack-ai-app-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "vitest",
+    "test:e2e": "playwright test --config tests/config/playwright.config.ts --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

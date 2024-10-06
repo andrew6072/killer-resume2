@@ -1,0 +1,44 @@
+# General
+node_modules/
+dist/
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.swp
+*.log
+
+# Build
+build/
+coverage/
+.nyc_output/
+.cache/
+
+# Misc
+.env.example
+.env.template
+.env.ci
+
+
+# Testing
+jest.config.js
+**/__snapshots__/
+**/__tests__/
+
+# IDE
+.history/
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.swp
+*.log
+.vercel
